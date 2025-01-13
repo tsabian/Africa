@@ -60,5 +60,13 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Files
+
 .DS_STORE
 *.DS_Store
+
+# Xcode project 
+
+.xcodeproj
+*.xcodeproj

@@ -1,0 +1,26 @@
+name: AfricaApp
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: '16.0'
+settings:
+  base:
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ABCD1234
+    SWIFT_VERSION: 5.0
+targets:
+  Africa:
+    type: application
+    platform: iOS
+    sources:
+      - path: Africa
+    resources:
+      - path: Africa/Assets.xcassets
+    entitlements: Africa/Africa.entitlements
+    settings:
+      base:
+        INFOPLIST_FILE: Africa/Info.plist
+    dependencies:
+      - target: Africa
+    info:
+      path: Africa/Info.plist
