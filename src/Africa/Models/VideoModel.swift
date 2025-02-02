@@ -1,5 +1,5 @@
 //
-//  VideoMdoel.swift
+//  VideoModel.swift
 //  Africa
 //
 //  Created by Tiago de Oliveira on 04/08/24.

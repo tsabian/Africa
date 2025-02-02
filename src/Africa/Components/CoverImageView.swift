@@ -10,7 +10,7 @@ import SwiftUI
 struct CoverImageView: View {
     var body: some View {
         TabView {
-            ForEach(0 ..< 5) { item in
+            ForEach(0 ..< 5) { _ in
                 Image(.coverLion)
                     .resizable()
                     .scaledToFit()
